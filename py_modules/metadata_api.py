@@ -4522,7 +4522,7 @@ def validate_xml(rootObj, xmlns=None, xmlns_xsi=None, schema_uri=None):
             encoding='UTF-8')
         xml = etree.fromstring(xml_text, parser=parser)
 
-        # Validate the etree against the schema 
+        # Validate the etree against the schema
         schema.assertValid(xml)
 
     except Exception, e:

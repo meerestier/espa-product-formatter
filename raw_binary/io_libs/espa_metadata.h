@@ -1,6 +1,6 @@
 /*****************************************************************************
 FILE: espa_metadata.h
-  
+
 PURPOSE: Contains ESPA internal metadata related defines and structures
 
 PROJECT:  Land Satellites Data System Science Research and Development (LSRD)
